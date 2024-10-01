@@ -1,0 +1,37 @@
+body{
+    background-image: url('giza-plateau-pyramids.jpg');
+    background-size: cover;
+
+}
+.main_div{
+    background-color: rgba(183, 186, 189, 0.777);
+    width: 35%;
+    margin: auto;
+    border-radius: 10px;
+
+    
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 10px;
+    
+}
+
+input[type="phone number"]:focus{
+    background-color: aqua;
+}
+.h3{
+    margin-left: 250px;
+}
+
+
+  
+
+

@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color:#ffffff ;
+    font-size:40px ;
+}
+body{
+    background-image:url(giza-plateau-pyramids.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+iframe{
+    height:700px ;
+    width:700px ;
+}
+h1{
+    margin-bottom:200px  ;
+    color: #ffffff;
+}

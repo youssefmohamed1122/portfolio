@@ -1,0 +1,72 @@
+a{
+    font-size:50px;
+    color:rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+
+}
+   
+    
+
+h1{
+   color: rgb(255, 247, 0);
+   font-weight: bolder;
+   font-size: 40px;
+   align-items: center;
+   
+}
+
+
+
+
+
+ul{
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+
+}
+li{
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+
+
+}
+
+.nav{
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+   align-items: center;
+    width: 100%;
+    z-index:1 ;
+}
+nav{
+ background-color: rgb(255, 234, 0);
+ width: 50%;
+ position: relative;
+ margin-left: 500px;
+ border-radius: 200px;
+
+}
+.h{
+    text-align:center ;
+    margin: initial 3px ;
+}
+video{
+    min-height:100% ;
+    min-width:100% ;
+    
+    
+}
+body{
+    background-image:url(giza-plateau-pyramids.jpg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+
+    
+

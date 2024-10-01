@@ -1,0 +1,163 @@
+.root{
+    --main-blue:#3a6cf4;
+}
+header{
+    background-color: rgb(8, 0, 238);
+    width:100% ;
+    position:fixed ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px ;
+    z-index:999;
+}
+.logo{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation{
+    margin-right:100px ;
+    align-items: center;
+    text-align: center;
+    font-size:30px ;
+    color: rgb(255, 255, 255);
+}
+.navigation a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left:30px ;
+    
+
+
+}
+.navigation a:hover{
+    color:#00fee5 ;
+}
+.main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% ;
+    min-height:100vh ;
+    background-attachment: fixed;
+    background-image: url(https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2023/04/portafolio-programador.webp);
+}
+section{
+    padding: 100px 200px;
+}
+.title{
+    font-size:30px ;
+    color:white ;
+    margin-bottom:15px ;
+}
+h3{
+    font-size:30px ;
+    color: white;
+}
+.icons a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size:40px ;
+    padding-right:20px ;
+    padding-top:20px ;
+}
+.main_bt{
+    text-decoration: none;
+    color: rgb(0, 26, 255);
+    font-size:40px ;
+    padding:20px ;
+    background-color:rgb(255, 255, 255) ;
+    border-radius:10px;
+    margin-bottom:20px ;
+    transition:0.7s ease ;
+    margin-bottom:100px ;
+}
+.main_bt:hover{
+    background-color: rgb(0, 208, 255);
+    transform: scale(1.1);
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    margin-bottom:30px ;
+    font-size:2.2em ;
+    color:var(--main-blue);
+}
+.content{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.cards{
+    background-color: #ffffff;
+    border-radius:10px ;
+    padding:25px ;
+    margin:15px ;
+    box-shadow:0 5px 25px black ;
+}
+.cards:hover{
+     transform: scale(1.1);
+}
+.cards.icon{
+    color: var(--main-blue);
+    font-size:8em ;
+    text-align: center;
+    
+}
+.icons a:hover{
+    color: aqua;
+}
+body{
+    background-color:blue ;
+    background-image: linear-gradient(blue,rgba(0, 0, 0, 0.823));
+}
+p{
+    color:#000000
+}
+.footer{
+    background-color:#000016;
+    color:#fff ;
+    padding:2em ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size:1.3em ;
+    font-weight:600 ;
+}
+.footer-title span{
+    color:var(--main-blue)
+
+}
+.footer.icons a{
+    font-size:1.3em ;
+    padding:0 12px 0 0 ;
+}
+h1{
+    text-align: center;
+    font-size:50px ;
+    color: rgb(255, 255, 255);
+    
+}
+.card{
+    margin-top:50px ;
+    margin-left:70px ;
+    align-items: center;
+}
+.p1{
+    color: #ffffff;
+}
+.card-body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
